@@ -1,0 +1,21 @@
+.frame-hello {
+	display: none;
+}
+.frame-resume {
+	display: block;
+}
+.navbar {
+	position: relative;
+}
+.navbar .btn {
+	display: none;
+}
+.navbar .custom-title {
+	float: right;
+}
+.navbar .brand {
+	padding-left: 40px
+}
+.hidden-print {
+	display: none;
+}

@@ -1,0 +1,37 @@
+.navbar .custom-title {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 20px;
+    float: right;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 0 1px 0 rgba(255,255,255,.2), 0 0 30px rgba(255,255,255,.125);
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.well {
+    padding: 10px;
+}
+
+.hero-unit {
+    padding: 40px;
+}
+
+.dl-horizontal dt {
+    text-align: left;
+    width: 60px;
+}
+.dl-horizontal dd {
+    margin-left: 70px;
+}
+.frame-hello {
+	display: none;
+}
+.frame-resume {
+	display: block;
+}
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
