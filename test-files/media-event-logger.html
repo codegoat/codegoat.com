@@ -45,7 +45,7 @@
 		const events = ['abort', 'DOMContentLoaded', 'afterprint', 'afterscriptexecute', 'beforeprint', 'beforescriptexecute', 'beforeunload', 'blur', 'cancel', 'change', 'click', 'close', 'connect', 'contextmenu', 'error', 'focus', 'hashchange', 'input', 'invalid', 'languagechange', 'load', 'loadend', 'loadstart', 'message', 'offline', 'online', 'open', 'pagehide', 'pageshow', 'popstate', 'progress', 'readystatechange', 'reset', 'select', 'show', 'sort', 'storage', 'submit', 'toggle', 'unload', 'loadeddata', 'loadedmetadata', 'canplay', 'playing', 'play', 'canplaythrough', 'seeked', 'seeking', 'stalled', 'suspend', 'timeupdate', 'volumechange', 'waiting', 'durationchange', 'emptied', 'unhandledrejection', 'rejectionhandled']
 
 		events.forEach(function (event) {
-			media.addEventListener(event, (e) => {
+			media.addEventListener(event, function (e) {
 				console.log(event)//, ': ', e)
 			})
 		})
