@@ -1,0 +1,14 @@
+{
+  "urn": "1234",
+  "title": {
+    "value": "BOB!"
+  },
+  "details": {
+    "images": {
+      "primary": "http://www.codegoat.com/images/top_left.png"
+    },
+    "urls": {
+      "webLaunch": "http://www.codegoat.com"
+    }
+  }
+}
